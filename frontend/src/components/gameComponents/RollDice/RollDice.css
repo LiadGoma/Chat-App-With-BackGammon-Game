@@ -1,0 +1,40 @@
+.roll-dice{
+display: flex;
+flex-direction: column;
+margin-left: 40px;
+}
+.dice-container{
+display: flex;
+flex-direction: row;
+}
+.myBtn{
+    align-self: center;
+    width: 8em;
+    padding: 1.5em;
+    font-size: 0.8em;
+    border: 0px;
+    border-radius: 10%;
+    color: white;
+    background-color: orchid;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+.myBtn:hover{
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+.end{
+    background-color:seagreen;
+}
+.quit{
+    background-color:darkslategray;
+}
+.seconds{
+    background-color: azure;
+    color: black;
+    font-weight: bold;
+}
+.seconds:hover{
+    background-color: azure;
+    cursor: auto;
+}

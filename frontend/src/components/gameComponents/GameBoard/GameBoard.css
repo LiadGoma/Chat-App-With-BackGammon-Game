@@ -1,0 +1,31 @@
+.gameBoard{
+    height: 300px;
+    width: 375px;
+    background-color: #9b7341;
+    display: flex;
+    flex-direction: column;
+}
+.gameBoardTop{
+    display: flex;
+    flex-direction: row;
+    flex: 4.5;
+
+}
+.gameBoardBottom{
+
+    display: flex;
+    flex-direction: row;
+    flex: 4.5;
+    align-items: flex-end;
+}
+.game{
+    height: 300px;
+    width: 375px;
+    background-color: saddlebrown;
+    padding: 10px;
+}
+.middleBar{
+    min-width: 10px;
+    height: 100%;
+    background-color: saddlebrown;
+}

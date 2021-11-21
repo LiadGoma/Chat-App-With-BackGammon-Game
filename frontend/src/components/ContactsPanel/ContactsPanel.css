@@ -1,0 +1,64 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.chatMenuInput{
+    width: 90%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+}
+.bottom{
+    align-items: flex-end;
+}
+
+
+.users::-webkit-scrollbar{
+    width: 1em;
+}
+.users::-webkit-scrollbar-track{
+    background: linear-gradient(rgb(12, 235, 12),red);
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+.users::-webkit-scrollbar-thumb{
+    background: rgb(122, 122, 255);
+    border: .2em solid hsl(200 75% 50% / 1);
+    border-radius: 100vw;
+}
+.users::-webkit-scrollbar-thumb:hover{
+    opacity:20%;
+}
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid rgb(240, 0, 0);
+    border-color: rgb(255, 0, 0) transparent rgb(255, 8, 8) transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

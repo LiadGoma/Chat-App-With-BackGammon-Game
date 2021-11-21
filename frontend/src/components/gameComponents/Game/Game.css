@@ -1,0 +1,7 @@
+.gameBox{
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    margin-left: 50px;
+}
+

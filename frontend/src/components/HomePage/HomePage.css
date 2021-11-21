@@ -1,0 +1,36 @@
+.messanger{
+    height:calc(100vh - 70px);
+    display: flex;
+}
+.contactsPanel{
+    flex:1.5;
+}
+.chatArea{
+    flex: 5.5;
+}
+
+.chatAreaWrapper, .contactsPanelWrapper{
+    padding: 10px;
+    height: 100%;
+}
+.chatAreaWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gameArea{
+display: flex;
+flex-flow: row wrap;
+flex-direction: row;
+
+}
+
+.chatInGame{
+    flex: 0.5;;
+}
+.game{
+    flex:content
+}
+.chatInGame{
+    flex:content;
+}

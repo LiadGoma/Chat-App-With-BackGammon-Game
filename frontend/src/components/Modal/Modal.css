@@ -1,0 +1,45 @@
+.popup{
+  min-height: 100px;
+  border: 2px;
+  padding: 10px;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.popup-content{
+    min-height: 30%;
+    border: 2px ;
+    padding: 10px;
+    border-radius: 2rem;
+    background-color:hsl(0, 0%, 92%);
+    box-shadow: 0.2em 0.2em 0.2em 0.2em hsl(0, 0%, 66%, 40%);
+    text-align: center;
+}
+
+.popup button {
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+margin:5px;
+  color: #fff;
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+margin-top: 4rem;
+
+}
+.reject{
+  background-color: rgb(196, 49, 49);
+
+}
+.accept{
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+}
+
+.popup button:hover {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}

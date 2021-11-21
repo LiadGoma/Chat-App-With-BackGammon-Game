@@ -1,0 +1,33 @@
+.triangleBottom{
+    border-bottom: 145px solid #dbbd93;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    align-content: space-between;
+    display: flex;
+
+}
+.triangleTop{
+    border-top: 145px solid #dbbd93;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+  
+
+}
+.pieces{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+ 
+}
+.top{
+    top: auto;
+}
+.bottom{
+    bottom: 5.4rem;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
+}

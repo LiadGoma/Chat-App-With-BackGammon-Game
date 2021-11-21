@@ -1,0 +1,12 @@
+.jail{
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 45px;
+    min-height: 240x;
+    padding: 10px;
+    border: 5px solid saddlebrown;
+    background-color:#dbbd93;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+.gamePiece{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-left: 3px;
+align-self: flex-end;
+}
+.white
+{
+    background-color: white;
+}
+.black{
+    background-color: black;
+    
+}
